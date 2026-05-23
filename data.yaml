@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['swimming', 'drowning', 'empty_pool']
+
+roboflow:
+  workspace: zidan-nlsjs
+  project: drowning-detection-e6kbk
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zidan-nlsjs/drowning-detection-e6kbk/dataset/8
